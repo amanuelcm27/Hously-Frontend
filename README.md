@@ -1,12 +1,22 @@
-# React + Vite
+# 🏡 Hously - House Price Predictor (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend of the Hously project — a simple, interactive React web app that allows users to input house details and get a price prediction using a machine learning model served by a FastAPI backend.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- Built with **React** and **Material UI**
+- Styled in a **Spotify-like dark theme**
+- Form to input house features (bedrooms, bathrooms, size, etc.)
+- Sends data to FastAPI backend and displays the predicted price
+- Error handling and nice UX with dialog popups
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📦 Tech Stack
+
+- **React**
+- **Material UI**
+- **Axios** for API calls
+- **Vite** (assumed as default build tool, update if using Create React App)
